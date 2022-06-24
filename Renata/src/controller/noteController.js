@@ -1,5 +1,7 @@
 
 const NoteModel = require('../models/noteSchema')
+const TagModel = require('../models/tagSchema');
+
 
 
 const findAllNotes = async(req, res) => {
